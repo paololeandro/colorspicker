@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.colors-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color {
+  flex: 25%;
+  min-height: 220px;
+  background-color: red;
+  transition: .4s linear;
+  cursor: pointer;
+}
+
+.color:hover {
+  filter: brightness(80%);
+}
+
+.refresh {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #000;
+  outline: none;
+  cursor: pointer;
+  transition: .4s linear;
+}
+
+.refresh:hover {
+  transform: rotate(180deg);
+}
+
+.copied {
+  position: fixed;
+}
