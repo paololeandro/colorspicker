@@ -1,1 +1,1 @@
-Amazing Colors Picker Using HTML CSS & JQuery
+Colors Picker Using HTML CSS & JQuery
